@@ -1,0 +1,55 @@
+/* Mobile Responsive Styles (320px to 575px) */
+@media (min-width: 320px) and (max-width: 575px) {
+.navbar-toggler {
+    border: none;
+}
+
+nav .navbar-nav {
+    gap: 0px;
+    background-color: #29313d;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+nav .nav-link {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+#banner{
+    padding-top: 160px;
+}
+#banner .boxarea {
+    position: relative; 
+    bottom: 0;
+    margin-top: 50px;
+    gap: 10px;
+}
+#banner .textArea h1 {
+    font-size: 32px;
+    text-transform: capitalize;
+    }
+#banner .textArea p {
+        font-size: 15px;
+        padding: 16px;
+        line-height: 150%;
+        text-transform: capitalize;
+    }
+
+.btn {
+    padding: 11px 28px;
+    margin-left: 18px;
+}
+
+#banner .textArea p {
+    margin-bottom: 18px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0%;
+    padding-left: 5%;
+}
+
+}
